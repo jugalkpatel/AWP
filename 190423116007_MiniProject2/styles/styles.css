@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+body {
+    background-image: url('https://apastyle.apa.org/images/mechanics-numbers_tcm11-261714_w1024_n.jpg');
+    font-family: 'Bungee Outline', cursive;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    text-align: center;
+    background-color: #d0e8f2;
+    font-size: 2rem;
+    padding: 5rem;
+    border-radius: 1rem;
+}
+
+.output {
+    margin: 2rem;
+}
+
+.btn-margin {
+    margin: 1rem;
+    background-color: #222831;
+    border: 0;
+    height: 3rem;
+    width: 4rem;
+    color: #d0e8f2;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
