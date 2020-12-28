@@ -20,8 +20,9 @@ main {
     text-align: center;
     background-color: #d0e8f2;
     font-size: 2rem;
-    padding: 5rem;
+    padding: 5rem 7rem;
     border-radius: 1rem;
+    flex-wrap: wrap;
 }
 
 .output {
@@ -37,4 +38,14 @@ main {
     color: #d0e8f2;
     font-size: 2rem;
     border-radius: 0.5rem;
+}
+
+.ctn-buttons {
+    display: block;
+}
+
+.btn-reset {
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
 }
