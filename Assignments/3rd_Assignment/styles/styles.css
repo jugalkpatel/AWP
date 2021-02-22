@@ -1,34 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Titillium Web', sans-serif;
-    /* width: 100vw;    */
+  font-family: "Titillium Web", sans-serif;
+  /* width: 100vw;    */
 }
 
 .wrapper {
-    margin: auto;
-    border: 1px solid black;
-    padding: 1rem;
-    max-width: 900px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 1rem;
+  max-width: 900px;
 }
 
 .hero_img {
-    width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .sec-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 hr {
-    color: lightgray;
-    margin-top: 0;
+  color: lightgray;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 355px) {
-    .main-ttl {
-        font-size: 1.5rem;
-    }
+  .main-ttl {
+    font-size: 1.5rem;
+  }
 }
