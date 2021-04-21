@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+        <title>Angular JS</title>
+        <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="myController" ng-init="mails=[{desc:'personal',mail:'jugalkpatel@gmail.com'},{desc:'work',mail:'123@gmail.com'},{desc:'college',mail:'190423116007.it18@scet.ac.in'}]">
+            <h2>{{user.title}} From Angular JS</h2>
+
+            <table border="1">
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        {{user.name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age:
+                    </td>
+                    <td>
+                        {{user.age}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mobile:
+                    </td>
+                    <td>
+                        {{user.mobile}}
+                    </td>
+                </tr>
+                <tr ng-repeat="mail in mails">
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        {{'Description: ' +mail.desc+ ' Email: ' +mail.mail}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            angular.module("myApp",[])
+
+            .controller("myController",function($scope){
+                $scope.user={
+                    title:"Hello World",
+                    name:"Jugal Patel",
+                    age:"21",
+                    mobile:"9876544112"
+                };
+            });
+        </script>
+    </body>
+</html>
